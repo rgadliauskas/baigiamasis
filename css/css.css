@@ -20,12 +20,14 @@
     margin-left: 11px;
 }
 .photos img{
-   width: 200px;
-    height:300px ;
+   width: 23%;
+    height:33% ;
 
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
-
-
+}
+.coverPhoto{
+   display: block;
+    margin: 0 auto;
 }
