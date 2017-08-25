@@ -1,0 +1,31 @@
+.menu {
+    background-image: url(/img/mainFoto.jpg);
+}
+
+.menu p {
+    text-align: center;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 50px;
+    color: #ebebeb;
+    padding: 20px;
+}
+
+.nuorodos a {
+    width: 13%;
+    color: #bef2e5;
+    font-size: 25px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 11px;
+}
+.photos img{
+   width: 200px;
+    height:300px ;
+
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+
+
+}
