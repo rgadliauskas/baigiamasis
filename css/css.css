@@ -29,5 +29,7 @@
 }
 .coverPhoto{
    display: block;
-    margin: 0 auto;
+    margin: 5px auto;
+    width: 46%;
+    height: 35%;
 }
