@@ -1,4 +1,6 @@
 $(function () {
+
+
     $('.tab').click(function () {
         var tabId = $(this).attr('href');
 
