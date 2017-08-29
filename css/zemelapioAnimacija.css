@@ -1,0 +1,47 @@
+.house {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: house 4s infinite;
+    animation-direction: alternate;
+}
+@keyframes house {
+    0%  {top: 105px; left: 50px}
+    100% { top: 500px; left:50px}
+}
+
+.house2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: house2 4s infinite;
+    animation-direction: alternate;
+}
+@keyframes house2 {
+    0%  {top: 500px; left: 1120px}
+    100% { top: 105px; left:1120px}
+}
+
+.house3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: house3 4s infinite;
+    animation-direction: alternate;
+}
+@keyframes house3 {
+    0% {top: 500px;  left: 50px }
+    100% { top: 105px;  left: 50px }
+}
+
+.house4 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: house4 4s infinite;
+    animation-direction: alternate;
+}
+@keyframes house4 {
+    0%  { top: 105px; left:1120px}
+    100% {top: 500px; left: 1120px}
+}
