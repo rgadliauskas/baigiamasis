@@ -29,10 +29,33 @@
     padding: 30px;
 }
 
+.paskutinio_kaires_naujienos {
+    text-align: left;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+    padding: 30px;
+}
+.paskutinio_desines_skelbimai {
+    text-align: left;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+    padding: 30px;
+}
+
 .pradzios_kaires_divas {
     float: left;
 }
 .pradzios_desines_divas {
+    float: right;
+}
+.paskutinio_kaires_divas {
+    float: left;
+}
+.paskutinio_desines_divas {
     float: right;
 }
 
