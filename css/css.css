@@ -1,7 +1,25 @@
 .menu {
     background-image: url(/img/mainFoto.jpg);
 }
-
+.pradzios_kaire_patarles {
+    text-align: left;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+    padding: 30px;
+}
+.pradzios_kaire_vertybes {
+    text-align: left;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+    padding: 30px;
+}
+.naujas_divas {
+    float: left;
+}
 .menu p {
     text-align: center;
     font-family: Verdana;
@@ -30,11 +48,14 @@
     border: 2px solid black;
 }
 
-.coverPhoto{
-    display: block;
-    margin: 5px auto;
-    width: 46%;
-    height: 35%;
+.coverPhoto {
+    float: left;
+}
+.pradineNuotrauka {
+    margin: 0 auto;
+    width: 480px;
+    height: 640px;
+    padding-top: 30px;
 }
 .zemelapis{
     display:block;
@@ -63,4 +84,8 @@ table td {
 
 table tr:nth-child(even){
     background-color: #f2f2f2
+}
+p{
+    line-height: 25px;
+    margin-left: 10px;
 }
