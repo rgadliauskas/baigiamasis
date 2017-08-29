@@ -1,6 +1,7 @@
 .menu {
     background-image: url(/img/mainFoto.jpg);
 }
+
 .pradzios_kaire_patarles {
     text-align: left;
     font-family: Verdana;
@@ -9,6 +10,7 @@
     color: black;
     padding: 30px;
 }
+
 .pradzios_kaire_vertybes {
     text-align: left;
     font-family: Verdana;
@@ -17,9 +19,23 @@
     color: black;
     padding: 30px;
 }
-.naujas_divas {
+
+.pradzios_desine_anekdotai {
+    text-align: left;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+    padding: 30px;
+}
+
+.pradzios_kaires_divas {
     float: left;
 }
+.pradzios_desines_divas {
+    float: right;
+}
+
 .menu p {
     text-align: center;
     font-family: Verdana;
@@ -37,55 +53,63 @@
     display: inline-block;
     margin-left: 11px;
 }
-.photos img{
+
+.photos img {
     width: 23%;
-    height:33% ;
+    height: 33%;
     border: 2px solid white;
     margin: 5px;
     /*padding: 5px;*/
 }
-.photos img:hover{
+
+.photos img:hover {
     border: 2px solid black;
 }
 
 .coverPhoto {
     float: left;
 }
+
 .pradineNuotrauka {
     margin: 0 auto;
     width: 480px;
     height: 640px;
     padding-top: 30px;
 }
-.zemelapis{
-    display:block;
+
+.zemelapis {
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
-body{
+
+body {
     background-color: lightgrey;
 }
 
 table {
-     border-collapse: collapse;
-     width: 100%;
-     margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
 
- }
-table th{
+}
+
+table th {
     font-size: 25px;
     text-align: left;
     padding: 8px;
 }
+
 table td {
     text-align: left;
     padding: 8px;
 }
 
-table tr:nth-child(even){
+table tr:nth-child(even) {
     background-color: #f2f2f2
 }
-p{
+
+p {
     line-height: 25px;
     margin-left: 10px;
 }
