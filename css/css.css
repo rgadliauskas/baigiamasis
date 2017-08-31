@@ -1,62 +1,6 @@
 .menu {
     background-image: url(/img/mainFoto.jpg);
-}
-
-.pradzios_kaire_patarles {
-    text-align: left;
-    font-family: Verdana;
-    font-style: italic;
-    font-size: 20px;
-    color: black;
-    padding: 30px;
-}
-
-.pradzios_kaire_vertybes {
-    text-align: left;
-    font-family: Verdana;
-    font-style: italic;
-    font-size: 20px;
-    color: black;
-    padding: 30px;
-}
-
-.pradzios_desine_anekdotai {
-    text-align: left;
-    font-family: Verdana;
-    font-style: italic;
-    font-size: 20px;
-    color: black;
-    padding: 30px;
-}
-
-.paskutinio_kaires_naujienos {
-    text-align: left;
-    font-family: Verdana;
-    font-style: italic;
-    font-size: 20px;
-    color: black;
-    padding: 30px;
-}
-.paskutinio_desines_skelbimai {
-    text-align: left;
-    font-family: Verdana;
-    font-style: italic;
-    font-size: 20px;
-    color: black;
-    padding: 30px;
-}
-
-.pradzios_kaires_divas {
-    float: left;
-}
-.pradzios_desines_divas {
-    float: right;
-}
-.paskutinio_kaires_divas {
-    float: left;
-}
-.paskutinio_desines_divas {
-    float: right;
+    background-repeat:repeat-x;
 }
 
 .menu p {
@@ -67,59 +11,24 @@
     color: #ebebeb;
     padding: 20px;
 }
-
+body {
+    background-color: lightgrey;
+}
 .nuorodos a {
-    width: 13%;
+    width: 16%;
     color: white;
     font-size: 25px;
+    display:inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.coverPhoto {
+    margin: 0 25% 0 25%;
+    width: 50%;
     padding: 10px;
     display: inline-block;
-    margin-left: 11px;
-}
+    /*position:absolute;*/
 
-.photos img {
-    width: 23%;
-    height: 33%;
-    border: 2px solid white;
-    margin: 5px;
-    /*padding: 5px;*/
-}
-
-.photos img:hover {
-    border: 2px solid black;
-}
-
-.coverPhoto {
-    float: left;
-}
-
-.calendarPhoto {
-    float: left;
-}
-.textareaPhoto {
-    float: left;
-}
-.buttonPhoto {
-    /*float: left;*/
-}
-
-.pradineNuotrauka {
-    margin: 0 auto;
-    width: 480px;
-    height: 640px;
-    padding-top: 30px;
-}
-
-.kalendoriausNuotrauka {
-    margin: 0 auto;
-}
-
-.ivestiesNuotrauka {
-    margin: 0 auto;
-}
-
-.mygtukoNuotrauka {
-    margin: 0 auto;
 }
 
 .zemelapis {
@@ -127,16 +36,22 @@
     margin-left: auto;
     margin-right: auto;
 }
+.photos img {
+    width: 23%;
+    height: 33%;
+    border: 2px solid white;
+    margin: 5px;
 
-body {
-    background-color: lightgrey;
+}
+
+.photos img:hover {
+    border: 2px solid black;
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
     margin-top: 10px;
-
 }
 
 table th {
@@ -154,7 +69,25 @@ table tr:nth-child(even) {
     background-color: #f2f2f2
 }
 
-p {
-    line-height: 25px;
-    margin-left: 10px;
+.vertybes {
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold ;
+    padding: 10px;
 }
+.vertybes1{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.naujienos{
+    font-size: 50px;
+    text-align: center;
+    margin: 120px;
+    border: 5px solid black;
+    padding: 50px;
+}
+
+
+
+

@@ -1,47 +1,27 @@
 .house {
     width: 100px;
     height: 100px;
-    position: absolute;
+    position: sticky;
     animation: house 4s infinite;
     animation-direction: alternate;
+    float:left;
 }
 @keyframes house {
-    0%  {top: 105px; left: 50px}
-    100% { top: 500px; left:50px}
+    0%  {top: 105px; }
+    100% { top: 500px; }
 }
 
 .house2 {
+    float:right;
     width: 100px;
     height: 100px;
-    position: absolute;
+    position:sticky;
     animation: house2 4s infinite;
     animation-direction: alternate;
+
 }
 @keyframes house2 {
-    0%  {top: 500px; left: 1120px}
-    100% { top: 105px; left:1120px}
+    0%  {top: 500px; }
+    100% { top: 105px; }
 }
 
-.house3 {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    animation: house3 4s infinite;
-    animation-direction: alternate;
-}
-@keyframes house3 {
-    0% {top: 500px;  left: 50px }
-    100% { top: 105px;  left: 50px }
-}
-
-.house4 {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    animation: house4 4s infinite;
-    animation-direction: alternate;
-}
-@keyframes house4 {
-    0%  { top: 105px; left:1120px}
-    100% {top: 500px; left: 1120px}
-}
