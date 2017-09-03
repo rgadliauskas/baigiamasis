@@ -1,6 +1,6 @@
 .house {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     position: sticky;
     animation: house 4s infinite;
     animation-direction: alternate;
@@ -13,8 +13,8 @@
 
 .house2 {
     float:right;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     position:sticky;
     animation: house2 4s infinite;
     animation-direction: alternate;
@@ -25,3 +25,10 @@
     100% { top: 105px; }
 }
 
+.zemelapis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}

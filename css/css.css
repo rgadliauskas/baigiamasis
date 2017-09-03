@@ -21,16 +21,40 @@
 }
 
 .coverPhoto {
-    margin: 0 23%;
     width: 50%;
     padding: 2%;
-    display: inline-block;
+    float: right;
     /*position:absolute;*/
 
+
 }
-.kontaktaiBlokas{
-    margin: 1% 0 1% 8%;
+
+.vertybiuBlokas {
+    margin-bottom: 16%;
+
 }
+
+.vertybes {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Verdana;
+    margin: 15% 0 2% 9%;
+
+}
+
+.vertybes1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin: 1% 0 1% 9%;
+
+}
+
+.kontaktaiBlokas {
+    margin: 3% 0 1% 10%;
+
+}
+
 .kontaktai {
     display: inline-block;
     width: 24%;
@@ -38,18 +62,10 @@
     vertical-align: top;
 
 }
+
 .kontaktai div {
     margin: 5% 0 0 2%;
     font-family: Verdana;
-
-
-
-}
-
-.zemelapis {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .photos img {
@@ -83,20 +99,6 @@ table td {
 
 table tr:nth-child(even) {
     background-color: #f2f2f2
-}
-
-.vertybes {
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    padding: 10px;
-    font-family: Verdana;
-}
-
-.vertybes1 {
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 10px;
 }
 
 .naujienos {
