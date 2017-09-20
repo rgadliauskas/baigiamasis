@@ -1,0 +1,11 @@
+<div id="demo">
+    <div ng-repeat="item in json">
+        <span>{{item.name}}</span>
+        <span>{{item.contact}}</span>
+    </div>
+</div>
+
+<script src="javaScript/jquery-3.2.1.min.js"></script>
+<script src="javaScript/zaidimaiSuJson.js"></script>
+/////////////////////////////////////////////////////////
+iskelta is kaimynai.html
