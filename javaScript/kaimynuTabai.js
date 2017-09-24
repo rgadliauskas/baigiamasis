@@ -11,7 +11,6 @@ $(function () {
 
         $(this).addClass('active').siblings().removeClass('active');
 
-        // e.preventDefault();
     });
     $('[data-default]').click();
 

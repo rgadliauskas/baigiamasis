@@ -25,18 +25,24 @@
 }
 
 .sheet {
-    padding: 5px;
-    float: right;
-    width: 70%;
-    border-left: none;
-    height: 100px;
+    position:fixed;
+    left:30%;
+    /*padding: 5px;*/
+    /*float: right;*/
+    /*width: 70%;*/
+    /*border-left: none;*/
+    /*height: 100px;*/
 }
 .sheets p{
 
     font-size: 20px;
 
-}
 
+}
+.sheets img{
+    position: fixed;
+   top:40%;
+}
 
 
 
